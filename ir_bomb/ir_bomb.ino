@@ -12,7 +12,7 @@ const int led = 10;
 // the setup routine runs once when you press reset:
 void setup() {                
   // initialize the digital pin as an output.
-  pinMode(led, OUTPUT);     
+  pinMode(led, OUTPUT);   // This is where we set up our pin
 }
 
 // the loop routine runs over and over again forever:
